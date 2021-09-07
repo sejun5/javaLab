@@ -17,7 +17,7 @@ public class StringEqualsExample {
 		if (strVar1.equals(strVar2)) {
 			System.out.println("strVar1과 strVar2는 문자열이  같음");
 		}
-
+		// new 연산자 클래스 생성자(); (객체생성방법)
 		String strVar3 = new String("신민철");
 		String strVar4 = new String("신민철");
 		
