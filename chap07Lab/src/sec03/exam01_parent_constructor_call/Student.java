@@ -1,0 +1,10 @@
+package sec03.exam01_parent_constructor_call;
+
+public class Student extends People {
+	public int studentNo;
+
+	Student(String name, String ssn, int StudentNo) {
+		super(name, ssn);
+		this.studentNo = StudentNo;
+	}
+}

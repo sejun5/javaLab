@@ -1,0 +1,11 @@
+package sec05.exam02_final_method;
+
+public class Child extends Parent {
+	private int studentNo;
+
+	public Child(String name, int studentNo) {
+		super(name);
+		this.name = name;
+		this.studentNo = studentNo;
+	}
+}
